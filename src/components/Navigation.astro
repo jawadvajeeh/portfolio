@@ -1,0 +1,16 @@
+---
+const navLinks = [
+];
+---
+
+
+<nav>
+  <div class="container">
+    <a href="/" class="logo">Mohammed Abdul Jawad Vajeeh</a>
+    <ul>
+      {navLinks.map(link => (
+        <li><a href={link.href}>{link.name}</a></li>
+      ))}
+    </ul>
+  </div>
+</nav>
