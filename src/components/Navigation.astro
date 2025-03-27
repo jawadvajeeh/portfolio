@@ -1,12 +1,16 @@
 ---
 const navLinks = [
+	{
+		href:"/",
+		name:"Home"
+	}
 ];
 ---
 
 
-<nav>
-  <div class="container">
-    <a href="/" class="logo">Mohammed Abdul Jawad Vajeeh</a>
+<nav class="py-4 border-b-1 border-onSurface text-xl">
+  <div class="px-2 md:px-0 flex justify-between">
+    <p class="font-semibold italic">Mohammed Abdul Jawad Vajeeh</p>
     <ul>
       {navLinks.map(link => (
         <li><a href={link.href}>{link.name}</a></li>

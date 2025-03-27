@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+
+@theme {
+	--color-surface:#f4f3ee;
+	--color-onSurface:#000814;
+	--color-primary:#e07a5f;
+	--color-secondary:#3a86ff;
+}
+
+@layer base {
+	.light {
+		--color-surface:#f4f3ee;
+		--color-onSurface:#000814;
+		--color-primary:#e07a5f;
+		--color-secondary:#3a86ff;
+	}
+	.dark {
+		--color-surface:#231942;
+		--color-onSurface:#f1faee;
+		--color-primary:#e07a5f;
+		--color-secondary:#3a86ff;
+	}
+}
