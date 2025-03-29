@@ -4,19 +4,19 @@ import { SiSubstack } from 'react-icons/si';
 const socials = [
 	{
 		name: 'GitHub',
-		href: 'https://github.com/your-username',
+		href: 'https://github.com/jawadvajeeh',
 		icon: <FaGithub className="text-white" />,
 		bgColor: 'bg-[#181717]', // GitHub black
 	  },
   {
     name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/your-username',
+    href: 'https://www.linkedin.com/in/jawadvajeeh',
     icon: <FaLinkedin className="text-white" />,
     bgColor: 'bg-[#0077B5]', // LinkedIn blue
   },
   {
     name: 'Substack',
-    href: 'https://your-substack.substack.com',
+    href: 'https://substack.com/@jawadvajeeh',
     icon: <SiSubstack className="text-white" />,
     bgColor: 'bg-[#FF6719]', // Substack orange
   },
