@@ -25,7 +25,7 @@ const socials = [
 
 const Socials = () => {
   return (
-    <div className="flex gap-4 mt-8">
+    <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-8">
       {socials.map(({ name, href, icon, bgColor }) => (
 		<a
           key={name}

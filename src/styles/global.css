@@ -6,6 +6,8 @@
 	--color-onSurface:#000814;
 	--color-primary:#e07a5f;
 	--color-secondary:#3a86ff;
+	--color-footer:#e9ecef;
+
 }
 
 @layer base {
@@ -14,11 +16,14 @@
 		--color-onSurface:#000814;
 		--color-primary:#e07a5f;
 		--color-secondary:#3a86ff;
+		--color-footer:#e9ecef;
 	}
 	.dark {
 		--color-surface:#231942;
 		--color-onSurface:#f1faee;
 		--color-primary:#e07a5f;
 		--color-secondary:#3a86ff;
+		--color-footer:#5e548e;
+
 	}
 }
