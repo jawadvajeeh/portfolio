@@ -4,10 +4,15 @@ import Layout from '../layouts/Layout.astro';
 import Navigation from '../components/Navigation.astro';
 import Hero from "../components/Hero.astro";
 import Socials from "../components/Socials.astro";
+
+const pageTitle = "Portfolio | Mohammed Abdul Jawad Vajeeh - Software Engineer";
+const pageDescription = "Check out my projects, experience, and skills. I'm Mohammed Abdul Jawad Vajeeh, Software Engineer specializing in React, React Native and Typescript. I pick up new technologies fast and love turning complex challenges into elegant solutions that solve real business problems.";
+const url = "https://jawadvajeeh.com";
+const ogImage = "/public/og_image.png";
 ---
 
-<Layout>
-	<div class="max-w-7xl mx-auto">
+<Layout pageDescription={pageDescription} pageTitle={pageTitle} url={url} ogImage={ogImage}>
+	<div class="px-4 max-w-7xl mx-auto">
 		<Navigation />
 		<Hero />
 		<Socials />
