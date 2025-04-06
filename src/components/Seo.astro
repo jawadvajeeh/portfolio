@@ -6,7 +6,7 @@ export interface Props {
 	ogImage?: string;
 }
 
-const { pageTitle, pageDescription, url, ogImage = '/src/assets/profile.jpg' } = Astro.props;
+const { pageTitle, pageDescription, url, ogImage = `${url}/og_image.png` } = Astro.props;
 ---
 
 <!-- SEO -->
