@@ -16,15 +16,18 @@ const { pageTitle, pageDescription, url, ogImage = `${url}/og_image.png` } = Ast
 
 <!-- Open Graph -->
 <meta property="og:title" content={pageTitle} />
+<meta property="og:site_name" content={pageTitle}>
 <meta property="og:description" content={pageDescription} />
-<meta property="og:type" content="website" />
 <meta property="og:url" content={url} />
 <meta property="og:image" content={ogImage} />
+<meta property="og:type" content="website">
 
 <!-- Twitter -->
 <meta name="twitter:title" content={pageTitle} />
 <meta name="twitter:description" content={pageDescription} />
 <meta name="twitter:image" content={ogImage} />
+<meta property="twitter:url" content={url}>
+<meta name="twitter:card" content="summary">
 
 <!-- Canonical -->
 <link rel="canonical" href={url} />

@@ -11,7 +11,7 @@ export function setupThemeToggle(buttonId: string) {
 	const button = document.getElementById(buttonId);
 
 	if (!button) return;
-	button.innerText = initialTheme === 'dark' ? '☀️' : '🌙';
+	button.innerText = initialTheme === 'dark' ? '🌙' : '☀️';
 
 	button.addEventListener("click", () => {
 		const current = html.classList.contains("dark") ? "dark" : "light";
@@ -19,7 +19,7 @@ export function setupThemeToggle(buttonId: string) {
 
 		html.classList.remove(current);
 		html.classList.add(next);
-		button.innerText = next === 'dark' ? '☀️' : '🌙';
+		button.innerText = next === 'dark' ? '🌙' : '☀️';
 		localStorage.setItem("theme", next);
 	});
 }
